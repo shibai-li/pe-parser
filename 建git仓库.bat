@@ -17,6 +17,7 @@ if "%GM%"=="" set "GM=lzc@localhost"
 git config user.name  "%GN%"
 git config user.email "%GM%"
 git config core.autocrlf false
+git config core.quotepath false
 echo.
 echo   user.name  = %GN%
 echo   user.email = %GM%
